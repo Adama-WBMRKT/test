@@ -1,0 +1,108 @@
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+ .avatar {
+ 	width: 60px;
+ 	height: 60px;
+ 	border-radius: 50%;
+ }
+
+ .banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 90%), url(images/banner.jpeg);
+	color: white;
+	padding: 100px 50px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	font-size: 50px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+
+}
+
+.btn-blue {
+ 	background-color: #69BCBA;
+ 	padding: 15px 20px;
+ 	border-radius: 4px;
+ 	color: white;
+ 	font-weight: bold;
+ 	font-family: 'Roboto', sans-serif;
+ }
+
+ .cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.card {
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 10px 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.card img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+
+.card h3 {
+	font-size: 20px;
+	padding-left: 20px;
+	flex-grow: 1;
+}
+
+.container {
+	width: 700px;
+	margin: 80px auto;
+}
+
+.color {
+	color: rgb(80,80,80)
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
